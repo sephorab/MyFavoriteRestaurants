@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Test compteur
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <!-- les tabs sont ajoutés dans pages/tabs.html-->
+
+
+<ion-content padding>
+
+  <p>{{counter}}</p>
+  <!-- on bind la fonction "increment" à l'action de click sur le bouton -->
+  <p>
+    <button ion-button block (click)="increment();" class = "center">{{button_label}}</button>
+    <button ion-button class="red_bg">Bouton 2 </button>
+  </p>
+</ion-content>
